@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- first of all you need to put those configuration 2 lines above at the beginning  -->
+<!-- name the suite -->
+<suite name="This is my first suite">
+    <!-- name the test -->
+    <test name="Test one">
+        <classes><!-- you could choose classes to run the class you want or you could choose packages to run all classes in that package -->
+            <class name="testcases.TestNgDescriptionExample"></class>
+            <class name="testcases.Calculator"></class>
+        </classes>
+    </test>
+
+</suite>
