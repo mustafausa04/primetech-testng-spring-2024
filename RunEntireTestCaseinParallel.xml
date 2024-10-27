@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- first of all you need to put those configuration 2 lines above at the beginning  -->
+
+<!--in order to make this (parallel) we need to add (parallel="methods" thread-count="2") to the suite, and since we
+have 2 classes to run we put 2 in the thread-count so we have to specify how many classes we will run-->
+<suite name="This is my first suite"  parallel="methods" thread-count="2"><!-- name the suite -->
+    <test name="Running test cases in parallel"><!-- name the test -->
+        <!--this will run the same 2 classes at the same time (parallel)-->
+        <classes>
+            <class name="testcases.SauceDemoLogin"></class>
+            <class name="testcases.SauceDemoLogin2"></class>
+        </classes>
+
+    </test>
+
+</suite>

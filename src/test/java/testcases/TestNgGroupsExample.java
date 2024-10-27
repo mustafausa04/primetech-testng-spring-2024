@@ -3,7 +3,8 @@ package testcases;
 import org.testng.annotations.Test;
 
 public class TestNgGroupsExample {
-    //here we will use (groups) it is similar to (Tags) in cucumber but we can't use (Tags) with testNg
+    //here we will use (groups) it is similar to (Tags) in cucumber but we can't use (Tags) with testNg and we will
+    //execute it from the (RunTestNGUsingGroups.xml)
 
     @Test(groups = "smokeTest")
     public void verifyLogin(){

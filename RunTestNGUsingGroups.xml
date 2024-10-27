@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- first of all you need to put those configuration 2 lines above at the beginning  -->
+
+<suite name="This is my first suite"><!-- name the suite -->
+    <test name="Running this test using groups"><!-- name the test -->
+        <!--1.here we will choose (groups) instead of (classes) so we can execute the test by smoke or regression
+        from the class (TestNgGroupsExample) but we need to specify 1.groups 2.in which package they are in-->
+        <groups>
+            <run>
+                <include name="smokeTest"/>
+            </run>
+        </groups>
+
+        <!--2.We need to tell the xml file where to find the test cases in which package-->
+        <packages>
+            <package name="testcases"></package>
+        </packages>
+
+        <!--or we can use the class instead of the package to find those groups in that specific class-->
+        <classes>
+            <class name="testcases.TestNgGroupsExample"></class>
+        </classes>
+
+    </test>
+
+</suite>

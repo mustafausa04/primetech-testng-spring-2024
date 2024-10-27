@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- first of all you need to put those configuration 2 lines above at the beginning  -->
+
+<suite name="This is my first suite"><!--name the suite-->
+
+    <test name="Running this test using Parameters">
+        <!--once you type (parameter) you will see it takes name and value-->
+        <parameter name="aaa" value="Mohamed"></parameter>
+        <parameter name="bbb" value="Nheri"></parameter>
+        <!--we also need to mention where the execution will be at?? in the class below-->
+        <classes>
+            <class name="testcases.TestNgParameterExample"></class>
+        </classes>
+
+    </test>
+
+</suite>

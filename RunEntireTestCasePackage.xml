@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- first of all you need to put those configuration 2 lines above at the beginning  -->
+<!-- name the suite -->
+<suite name="This is my first suite">
+    <test name="Running entire package">
+        <packages> <!-- Will execute entire package called testcases -->
+
+            <package name="testcases"></package>
+
+        </packages>
+    </test>
+
+</suite>
