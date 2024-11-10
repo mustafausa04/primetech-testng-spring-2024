@@ -5,10 +5,9 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
 import java.util.List;
 
-import static io.restassured.RestAssured.*;//use this import all
+import static io.restassured.RestAssured.*;//use this to import all
 //import static io.restassured.RestAssured.baseURI;
 //import static io.restassured.RestAssured.given;
 //import static io.restassured.RestAssured.get;

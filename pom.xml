@@ -24,7 +24,7 @@
             <version>4.19.0</version>
         </dependency>
 
-        <!-- this dependency for testng -->
+        <!-- this dependency for testNG -->
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
@@ -38,6 +38,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!--to read excel sheet dependency-->
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
         <dependency>
             <groupId>org.apache.poi</groupId>
@@ -50,6 +51,21 @@
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
             <version>5.5.0</version>
+        </dependency>
+
+        <!-- json dependency -->
+        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+        <!-- this is schema dependency -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>5.4.0</version>
         </dependency>
     </dependencies>
 

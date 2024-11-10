@@ -20,7 +20,7 @@ public class Example1 {
         Response response =  RestAssured.get("https://reqres.in/api/users?page=2");
 
         //now we can get anything from the response body
-        System.out.println(response.getStatusCode());
+        System.out.println(response.getStatusCode());//this will print the status code
         System.out.println("=======================================");
         //to get any type of header, you need to go to the (reqres.in) where you get the response body back, right click
         //inspect, network, look at the Headers get any key for ex "content-type" and put like below you will get its
